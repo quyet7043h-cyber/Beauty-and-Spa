@@ -142,6 +142,12 @@
 }
 /* Responsive cho điện thoại */
 @media (max-width: 768px) {
+  .banner {
+    height: 320px;
+    background-size: contain;
+    background-position: center;
+  }
+
   .avatar {
     width: 80px;
     height: 80px;
@@ -149,21 +155,21 @@
     left: 15px;
   }
 
-  .banner {
-    height: auto;
-    padding-bottom: 20px;
-  }
-
   .menu {
-    position: static;
-    margin-top: 220px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px;
   }
 
   .menu ul {
-    display: flex;
-    flex-wrap: wrap;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 10px;
+  }
+
+  .menu a {
+    font-size: 14px;
   }
 
   .home-content,
