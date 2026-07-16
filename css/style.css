@@ -58,3 +58,117 @@
 .menu a:hover {
   color: #ffd700;
 }
+.home-content {
+  max-width: 1000px;
+  margin: 70px auto;
+}
+
+.home-content h1 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 42px;
+  color: #8b5e3c;
+}
+
+.home-text {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 22px;
+  color: #555;
+  line-height: 2;
+}
+
+.gioithieu-content {
+  max-width: 1000px;
+  margin: 70px auto;
+}
+
+.gioithieu-content h1 {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  font-size: 42px;
+  color: #8b5e3c;
+}
+
+.gioithieu-text {
+  text-align: left;
+  margin-top: 20px;
+  font-size: 22px;
+  color: #555;
+  line-height: 2;
+}
+
+.gioithieu-images {
+  max-width: 1000px;
+  margin: 40px auto;
+
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.gioithieu-images img {
+  width: 220px;
+  height: 220px;
+
+  object-fit: cover;
+  border-radius: 10px;
+}
+/* Responsive cho điện thoại */
+@media (max-width: 768px) {
+  .banner {
+    height: 260px;
+    background-size: 90% auto;
+  }
+
+  .avatar {
+    width: 80px;
+    height: 80px;
+    top: 15px;
+    left: 15px;
+  }
+
+  .menu {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 15px;
+  }
+
+  .menu ul {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 0 10px;
+  }
+
+  .menu a {
+    font-size: 14px;
+  }
+
+  .home-content,
+  .gioithieu-content {
+    width: 90%;
+    margin: 40px auto;
+  }
+
+  .home-content h1,
+  .gioithieu-content h1 {
+    font-size: 28px;
+    margin-bottom: 25px;
+  }
+
+  .home-text,
+  .gioithieu-text {
+    font-size: 17px;
+    line-height: 1.7;
+  }
+
+  .gioithieu-images img {
+    width: 150px;
+    height: 150px;
+  }
+}
