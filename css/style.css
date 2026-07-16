@@ -197,4 +197,9 @@
     width: 150px;
     height: 150px;
   }
+  .footer {
+    position: static;
+    margin-top: 40px;
+    text-align: center;
+  }
 }
