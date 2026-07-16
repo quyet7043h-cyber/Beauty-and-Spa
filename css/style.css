@@ -149,8 +149,9 @@
 /* Responsive cho điện thoại */
 @media (max-width: 768px) {
   .banner {
-    height: 280px;
-    background-size: cover;
+  height: 280px;
+  background-size: contain;
+  background-repeat: no-repeat;
   }
 
   .avatar {
