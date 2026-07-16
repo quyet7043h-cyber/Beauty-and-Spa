@@ -142,11 +142,6 @@
 }
 /* Responsive cho điện thoại */
 @media (max-width: 768px) {
-  .banner {
-    height: 260px;
-    background-size: 90% auto;
-  }
-
   .avatar {
     width: 80px;
     height: 80px;
